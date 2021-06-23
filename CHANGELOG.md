@@ -1,27 +1,56 @@
 <!-- usage documentation: http://expeditor-docs.es.chef.io/configuration/changelog/ -->
 
-<!-- latest_release 8.0.9 -->
-## [8.0.9](https://github.com/chef/omnibus/tree/8.0.9) (2020-11-25)
+<!-- latest_release 8.1.11 -->
+## [8.1.11](https://github.com/chef/omnibus/tree/8.1.11) (2021-06-23)
 
 #### Merged Pull Requests
-- Create sleep loop in compress_dmg [#989](https://github.com/chef/omnibus/pull/989) ([jeremiahsnapp](https://github.com/jeremiahsnapp))
+- Updating aruba version from 0.5 to 1.1 [#1019](https://github.com/chef/omnibus/pull/1019) ([skeshari12](https://github.com/skeshari12))
 <!-- latest_release -->
-<!-- release_rollup since=7.0.34 -->
+<!-- release_rollup since=8.0.15 -->
 ### Changes not yet released to rubygems.org
 
 #### Merged Pull Requests
-- Create sleep loop in compress_dmg [#989](https://github.com/chef/omnibus/pull/989) ([jeremiahsnapp](https://github.com/jeremiahsnapp)) <!-- 8.0.9 -->
-- Improve debug messages for macOS code signing [#987](https://github.com/chef/omnibus/pull/987) ([tas50](https://github.com/tas50)) <!-- 8.0.8 -->
-- Update chefstyle requirement from = 1.5.1 to = 1.5.2 [#986](https://github.com/chef/omnibus/pull/986) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 8.0.7 -->
-- Revert addition of InstallBuilder builder [#985](https://github.com/chef/omnibus/pull/985) ([tas50](https://github.com/tas50)) <!-- 8.0.6 -->
-- Add Installbuilder packager(installbuilder) [#908](https://github.com/chef/omnibus/pull/908) ([niekrasp](https://github.com/niekrasp)) <!-- 8.0.5 -->
-- Remove EOL Windows Support (pre-2012) [#983](https://github.com/chef/omnibus/pull/983) ([tas50](https://github.com/tas50)) <!-- 8.0.4 -->
-- Update chefstyle requirement from = 1.5.0 to = 1.5.1 [#984](https://github.com/chef/omnibus/pull/984) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 8.0.3 -->
-- Switch from fauxhai to fauxhai-ng [#982](https://github.com/chef/omnibus/pull/982) ([tas50](https://github.com/tas50)) <!-- 8.0.2 -->
-- Remove SLES 11 check [#981](https://github.com/chef/omnibus/pull/981) ([tas50](https://github.com/tas50)) <!-- 8.0.1 -->
-- Replace chef-sugar for DSL helpers with chef-utils 15.4+ [#980](https://github.com/chef/omnibus/pull/980) ([lamont-granquist](https://github.com/lamont-granquist)) <!-- 8.0.0 -->
+- Updating aruba version from 0.5 to 1.1 [#1019](https://github.com/chef/omnibus/pull/1019) ([skeshari12](https://github.com/skeshari12)) <!-- 8.1.11 -->
+- Upgrade to GitHub-native Dependabot [#1012](https://github.com/chef/omnibus/pull/1012) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 8.1.10 -->
+- Revert &quot;argument changes to support ruby 3&quot; [#1016](https://github.com/chef/omnibus/pull/1016) ([tas50](https://github.com/tas50)) <!-- 8.1.9 -->
+- Add Ruby 3 testing [#1006](https://github.com/chef/omnibus/pull/1006) ([tas50](https://github.com/tas50)) <!-- 8.1.8 -->
+- Pin to Ohai gem &lt; 17 [#1013](https://github.com/chef/omnibus/pull/1013) ([schisamo](https://github.com/schisamo)) <!-- 8.1.7 -->
+- Update chefstyle requirement from = 1.7.4 to = 1.7.5 [#1011](https://github.com/chef/omnibus/pull/1011) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 8.1.6 -->
+- Update chefstyle requirement from = 1.7.2 to = 1.7.4 [#1007](https://github.com/chef/omnibus/pull/1007) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 8.1.5 -->
+- Prevent test failures with the latest fauxhai [#1009](https://github.com/chef/omnibus/pull/1009) ([tas50](https://github.com/tas50)) <!-- 8.1.4 -->
+- Add hostArchitectures to macOS Distribution file [#1005](https://github.com/chef/omnibus/pull/1005) ([tduffield](https://github.com/tduffield)) <!-- 8.1.3 -->
+- Update chefstyle requirement from = 1.7.1 to = 1.7.2 [#1004](https://github.com/chef/omnibus/pull/1004) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 8.1.2 -->
+- pull in new fastmsi dll that uses an absolute path to point to 7z.exe [#1003](https://github.com/chef/omnibus/pull/1003) ([mwrock](https://github.com/mwrock)) <!-- 8.1.1 -->
+- Add support for macOS 11 and multiple architectures [#1002](https://github.com/chef/omnibus/pull/1002) ([tduffield](https://github.com/tduffield)) <!-- 8.1.0 -->
+- Update chefstyle requirement from = 1.6.2 to = 1.7.1 [#1001](https://github.com/chef/omnibus/pull/1001) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot])) <!-- 8.0.17 -->
+- Switch from -02 to -03 on Linux/macOS [#999](https://github.com/chef/omnibus/pull/999) ([tas50](https://github.com/tas50)) <!-- 8.0.16 -->
 <!-- release_rollup -->
 <!-- latest_stable_release -->
+## [8.0.15](https://github.com/chef/omnibus/tree/8.0.15) (2021-02-13)
+
+#### Merged Pull Requests
+- Update chefstyle requirement from = 1.5.2 to = 1.5.8 [#993](https://github.com/chef/omnibus/pull/993) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- Update chefstyle requirement from = 1.5.8 to = 1.5.9 [#994](https://github.com/chef/omnibus/pull/994) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- Add cumulus platform support [#996](https://github.com/chef/omnibus/pull/996) ([predominant](https://github.com/predominant))
+- Update dmg unmount logging to start at attempt 1 [#990](https://github.com/chef/omnibus/pull/990) ([tas50](https://github.com/tas50))
+- Update chefstyle requirement from = 1.5.9 to = 1.6.1 [#997](https://github.com/chef/omnibus/pull/997) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- Update chefstyle requirement from = 1.6.1 to = 1.6.2 [#998](https://github.com/chef/omnibus/pull/998) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+<!-- latest_stable_release -->
+
+## [8.0.9](https://github.com/chef/omnibus/tree/8.0.9) (2020-12-14)
+
+#### Merged Pull Requests
+- Replace chef-sugar for DSL helpers with chef-utils 15.4+ [#980](https://github.com/chef/omnibus/pull/980) ([lamont-granquist](https://github.com/lamont-granquist))
+- Remove SLES 11 check [#981](https://github.com/chef/omnibus/pull/981) ([tas50](https://github.com/tas50))
+- Switch from fauxhai to fauxhai-ng [#982](https://github.com/chef/omnibus/pull/982) ([tas50](https://github.com/tas50))
+- Update chefstyle requirement from = 1.5.0 to = 1.5.1 [#984](https://github.com/chef/omnibus/pull/984) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- Remove EOL Windows Support (pre-2012) [#983](https://github.com/chef/omnibus/pull/983) ([tas50](https://github.com/tas50))
+- Add Installbuilder packager(installbuilder) [#908](https://github.com/chef/omnibus/pull/908) ([niekrasp](https://github.com/niekrasp))
+- Revert addition of InstallBuilder builder [#985](https://github.com/chef/omnibus/pull/985) ([tas50](https://github.com/tas50))
+- Update chefstyle requirement from = 1.5.1 to = 1.5.2 [#986](https://github.com/chef/omnibus/pull/986) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
+- Improve debug messages for macOS code signing [#987](https://github.com/chef/omnibus/pull/987) ([tas50](https://github.com/tas50))
+- Create sleep loop in compress_dmg [#989](https://github.com/chef/omnibus/pull/989) ([jeremiahsnapp](https://github.com/jeremiahsnapp))
+
 ## [7.0.34](https://github.com/chef/omnibus/tree/7.0.34) (2020-11-11)
 
 #### Merged Pull Requests
@@ -46,7 +75,6 @@
 - Update chefstyle requirement from = 1.4.3 to = 1.4.5 [#976](https://github.com/chef/omnibus/pull/976) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
 - use 7zip for FastUnzip MSI action to boost zip expansion performance [#977](https://github.com/chef/omnibus/pull/977) ([mwrock](https://github.com/mwrock))
 - Update chefstyle requirement from = 1.4.5 to = 1.5.0 [#978](https://github.com/chef/omnibus/pull/978) ([dependabot-preview[bot]](https://github.com/dependabot-preview[bot]))
-<!-- latest_stable_release -->
 
 ## [7.0.13](https://github.com/chef/omnibus/tree/7.0.13) (2020-06-15)
 
